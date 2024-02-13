@@ -4,7 +4,7 @@ import sary from "./assets/hery-removebg.png";
 
 export function App() {
   return (
-    <div className="bg-dark">
+    <div className=" container-fluid row bg-dark">
       <Navbar />
       <Header image={sary} />
     </div>
